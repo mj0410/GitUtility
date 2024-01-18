@@ -9,6 +9,7 @@ git push
 git pull
 
 git reset commit_id # return to the status before that commit
+git rm -r --cached # remove cache
 ```
 
 ### Markdown
