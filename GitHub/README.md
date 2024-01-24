@@ -21,3 +21,13 @@ image        <img src="image link" width="size(num)">
 new line     <br/>
 empty space  &nbsp;
 ```
+
+```
+```diff
++ Green
+- Red
+! Orange
+@@ Pink @@
+# Gray
+```
+```
