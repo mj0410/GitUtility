@@ -59,3 +59,7 @@ plt.xlabel('Recall')
 plt.ylabel('Precision')
 plt.show()
 ```
+
+# MultiGPU processing
+
+![image](https://github.com/mj0410/SomethingUseful/assets/66175878/60a27319-a739-4c14-81d8-e81e7c3f1f28)
