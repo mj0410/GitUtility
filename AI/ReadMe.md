@@ -46,6 +46,11 @@ plt.show()
 ```
 
 ### Precision-Recall Curve
+
+`formula` 
+> $Precision = \frac{TP}{(TP + FP)}$ </br>
+> $Recall = \frac{TP}{(TP + FN)}$
+
 ```python
 from sklearn.metrics import auc
 probs = model.predict(x_test, verbose=0)[:,1]
