@@ -30,4 +30,19 @@ empty space  &nbsp;
 @@ Pink @@
 # Gray
 ```
+
+```
+```mermaid
+    graph BT;
+        layer_b[Previous Layer];
+        layer_t[Filter concatenation];
+        filter1[1X1 Conv Layer];
+        filter2[3X3 Conv Layer];
+        filter3[5X5 Conv Layer];
+        layer_b --> filter1;
+        layer_b --> filter2;
+        layer_b --> filter3;
+        filter1 --> layer_t;
+        filter2 --> layer_t;
+        filter3 --> layer_t;
 ```
