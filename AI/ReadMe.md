@@ -14,6 +14,17 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 ```
 
+### Learning Rate
+
+```python
+lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
+    0.01,
+    decay_steps = 10000,
+    decay_rate = 0.96,
+    staircase = True
+)
+```
+
 # Model Evaluation
 ### Evaluation
 ```python
