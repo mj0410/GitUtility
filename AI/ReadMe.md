@@ -12,6 +12,10 @@
 # unseen tf GPU use warning
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
+# Type Hint
+def something(var1: str, var2: int) -> return_type:
+    pass
 ```
 
 ### Learning Rate
